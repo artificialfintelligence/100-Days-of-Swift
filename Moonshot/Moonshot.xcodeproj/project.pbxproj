@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114711E028A63068008CF469 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114711DF28A63068008CF469 /* GridLayout.swift */; };
+		114711E228A63072008CF469 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114711E128A63072008CF469 /* ListLayout.swift */; };
 		11B69013289BA85E00E45E92 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 11B69011289BA85E00E45E92 /* astronauts.json */; };
 		11B69014289BA85E00E45E92 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 11B69012289BA85E00E45E92 /* missions.json */; };
 		11B69016289BA8D700E45E92 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B69015289BA8D600E45E92 /* Astronaut.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		114711DF28A63068008CF469 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		114711E128A63072008CF469 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		11B69011289BA85E00E45E92 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		11B69012289BA85E00E45E92 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		11B69015289BA8D600E45E92 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				11E6BE80289B63DC0066639A /* MoonshotApp.swift */,
 				11E6BE82289B63DC0066639A /* Moonshot_Sandbox.swift */,
 				11B69019289BAB7200E45E92 /* ContentView.swift */,
+				114711DF28A63068008CF469 /* GridLayout.swift */,
+				114711E128A63072008CF469 /* ListLayout.swift */,
 				11B69021289C9A1700E45E92 /* MissionView.swift */,
 				11B69023289CF0AA00E45E92 /* AstronautView.swift */,
 				11B6901D289C0EEA00E45E92 /* Color-Theme.swift */,
@@ -173,6 +179,8 @@
 				11B6901E289C0EEA00E45E92 /* Color-Theme.swift in Sources */,
 				11B6901A289BAB7200E45E92 /* ContentView.swift in Sources */,
 				11E6BE83289B63DC0066639A /* Moonshot_Sandbox.swift in Sources */,
+				114711E028A63068008CF469 /* GridLayout.swift in Sources */,
+				114711E228A63072008CF469 /* ListLayout.swift in Sources */,
 				11E6BE81289B63DC0066639A /* MoonshotApp.swift in Sources */,
 				11B69018289BA94900E45E92 /* Bundle-Decodable.swift in Sources */,
 			);
