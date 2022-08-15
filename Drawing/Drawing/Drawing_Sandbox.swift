@@ -58,7 +58,7 @@ struct Drawing_Sandbox: View {
                 path.addLine(to: CGPoint(x: 100, y: 300))
                 path.addLine(to: CGPoint(x: 300, y: 300))
                 path.addLine(to: CGPoint(x: 200, y: 100))
-//                path.closeSubpath()
+                path.closeSubpath()
             }
 //            .fill(.blue)
 //            .stroke(.red, lineWidth: 10)

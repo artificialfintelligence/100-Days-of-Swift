@@ -64,11 +64,42 @@ struct CheckerBoard: Shape {
     }
 }
 
+struct RightArrow: Shape {
+    var thickness: Double
+    var arrowHeadSize: Double
+    
+    var animatableData: Double {
+        get { thickness }
+        set { thickness = newValue }
+    }
+    
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        path.move(to: CGPoint(x: rect.maxX, y: rect.midY))
+        path.addLine(to: CGPoint(x: rect.maxX - arrowHeadSize, y: rect.midY - arrowHeadSize / 2))
+        path.addLine(to: CGPoint(x: rect.maxX - arrowHeadSize, y: rect.midY + arrowHeadSize / 2))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.midY))
+        path.closeSubpath()
+        
+        path.move(to: CGPoint(x: rect.maxX - arrowHeadSize, y: rect.midY - thickness / 2))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.midY - thickness / 2))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.midY + thickness / 2))
+        path.addLine(to: CGPoint(x: rect.maxX - arrowHeadSize, y: rect.midY + thickness / 2))
+        path.closeSubpath()
+                
+        return path
+    }
+}
+
 struct Drawing_Sandbox5: View {
     @State private var insetAmount = 50.0
     @State private var rows = 4
     @State private var columns = 4
     
+    @State private var arrowThickness = 1.0
+    @State private var arrowHeadSize = 10.0
+
     var body: some View {
         VStack {
             Trapezoid(insetAmount: insetAmount)
@@ -86,6 +117,22 @@ struct Drawing_Sandbox5: View {
                         columns = 16
                     }
                 }
+                .frame(width: 300, height: 300)
+            
+            RightArrow(thickness: arrowThickness, arrowHeadSize: arrowHeadSize)
+                .frame(width: 300, height: 100)
+            
+            Text("Arrow thickness: \(Int(arrowThickness))")
+            Slider(value: $arrowThickness, in: 1...10, step: 1)
+                .padding([.horizontal, .bottom])
+            
+            Button {
+                withAnimation {
+                    arrowThickness = Double.random(in: 1...10)
+                }
+            } label: {
+                Text("Random Thickness")
+            }
         }
     }
 }
