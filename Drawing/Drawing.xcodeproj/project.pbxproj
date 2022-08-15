@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100C1AD28A8C679002BC434 /* Drawing_Sandbox3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100C1AC28A8C679002BC434 /* Drawing_Sandbox3.swift */; };
+		1100C1AF28A9F34C002BC434 /* Drawing_Sandbox4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100C1AE28A9F34C002BC434 /* Drawing_Sandbox4.swift */; };
+		1100C1B128A9F79A002BC434 /* Drawing_Sandbox5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100C1B028A9F79A002BC434 /* Drawing_Sandbox5.swift */; };
 		11E3FA7628A66CEE004D3933 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3FA7528A66CEE004D3933 /* DrawingApp.swift */; };
 		11E3FA7828A66CEE004D3933 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3FA7728A66CEE004D3933 /* ContentView.swift */; };
 		11E3FA7A28A66CEF004D3933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E3FA7928A66CEF004D3933 /* Assets.xcassets */; };
 		11E3FA7D28A66CEF004D3933 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E3FA7C28A66CEF004D3933 /* Preview Assets.xcassets */; };
+		11E3FA8428A687F2004D3933 /* Drawing_Sandbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3FA8328A687F2004D3933 /* Drawing_Sandbox.swift */; };
+		11E3FA8628A68BE8004D3933 /* Drawing_Sandbox2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E3FA8528A68BE8004D3933 /* Drawing_Sandbox2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1100C1AC28A8C679002BC434 /* Drawing_Sandbox3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Sandbox3.swift; sourceTree = "<group>"; };
+		1100C1AE28A9F34C002BC434 /* Drawing_Sandbox4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Sandbox4.swift; sourceTree = "<group>"; };
+		1100C1B028A9F79A002BC434 /* Drawing_Sandbox5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Sandbox5.swift; sourceTree = "<group>"; };
 		11E3FA7228A66CEE004D3933 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E3FA7528A66CEE004D3933 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		11E3FA7728A66CEE004D3933 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11E3FA7928A66CEF004D3933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E3FA7C28A66CEF004D3933 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11E3FA8328A687F2004D3933 /* Drawing_Sandbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Sandbox.swift; sourceTree = "<group>"; };
+		11E3FA8528A68BE8004D3933 /* Drawing_Sandbox2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Sandbox2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				11E3FA7528A66CEE004D3933 /* DrawingApp.swift */,
 				11E3FA7728A66CEE004D3933 /* ContentView.swift */,
+				11E3FA8328A687F2004D3933 /* Drawing_Sandbox.swift */,
+				11E3FA8528A68BE8004D3933 /* Drawing_Sandbox2.swift */,
+				1100C1AC28A8C679002BC434 /* Drawing_Sandbox3.swift */,
+				1100C1AE28A9F34C002BC434 /* Drawing_Sandbox4.swift */,
+				1100C1B028A9F79A002BC434 /* Drawing_Sandbox5.swift */,
 				11E3FA7928A66CEF004D3933 /* Assets.xcassets */,
 				11E3FA7B28A66CEF004D3933 /* Preview Content */,
 			);
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E3FA7828A66CEE004D3933 /* ContentView.swift in Sources */,
+				1100C1B128A9F79A002BC434 /* Drawing_Sandbox5.swift in Sources */,
+				11E3FA8628A68BE8004D3933 /* Drawing_Sandbox2.swift in Sources */,
+				11E3FA8428A687F2004D3933 /* Drawing_Sandbox.swift in Sources */,
+				1100C1AF28A9F34C002BC434 /* Drawing_Sandbox4.swift in Sources */,
+				1100C1AD28A8C679002BC434 /* Drawing_Sandbox3.swift in Sources */,
 				11E3FA7628A66CEE004D3933 /* DrawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
